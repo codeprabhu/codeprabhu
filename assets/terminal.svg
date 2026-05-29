@@ -108,6 +108,91 @@
     KrystalRun
   </text>
 
+  <!-- Falling Sakura Petal 1 -->
+  <ellipse cx="150" cy="-100"
+           rx="9" ry="5"
+           fill="#f5c2e7"
+           opacity="0.8">
+
+    <animate attributeName="cy"
+             values="-100;850"
+             dur="14s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cx"
+             values="150;220;130;210;150"
+             dur="14s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Falling Sakura Petal 2 -->
+  <ellipse cx="350" cy="-50"
+           rx="8" ry="5"
+           fill="#f38ba8"
+           opacity="0.75">
+
+    <animate attributeName="cy"
+             values="-50;850"
+             dur="18s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cx"
+             values="350;420;330;410;350"
+             dur="18s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Falling Sakura Petal 3 -->
+  <ellipse cx="550" cy="-80"
+           rx="10" ry="6"
+           fill="#f5c2e7"
+           opacity="0.85">
+
+    <animate attributeName="cy"
+             values="-80;850"
+             dur="12s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cx"
+             values="550;620;520;610;550"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Falling Sakura Petal 4 -->
+  <ellipse cx="800" cy="-30"
+           rx="8" ry="5"
+           fill="#cba6f7"
+           opacity="0.8">
+
+    <animate attributeName="cy"
+             values="-30;850"
+             dur="16s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cx"
+             values="800;860;780;850;800"
+             dur="16s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Falling Sakura Petal 5 -->
+  <ellipse cx="1050" cy="-120"
+           rx="9" ry="5"
+           fill="#f5c2e7"
+           opacity="0.9">
+
+    <animate attributeName="cy"
+             values="-120;850"
+             dur="20s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cx"
+             values="1050;1110;1020;1090;1050"
+             dur="20s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
   <!-- Catppuccin Palette -->
   <rect x="680" y="620" width="40" height="40" fill="#f38ba8"/>
   <rect x="730" y="620" width="40" height="40" fill="#fab387"/>
