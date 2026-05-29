@@ -1,0 +1,108 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1200" height="180" fill="transparent"/>
+
+  <!-- Petal 1 -->
+  <ellipse cx="50" cy="-20" rx="8" ry="5" fill="#f5c2e7">
+    <animate attributeName="cy"
+             values="-20;200"
+             dur="8s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="50;80;40;70;50"
+             dur="8s"
+             repeatCount="indefinite"/>
+    <animateTransform
+             attributeName="transform"
+             type="rotate"
+             values="0 50 0;360 50 0"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 2 -->
+  <ellipse cx="200" cy="-50" rx="8" ry="5" fill="#f38ba8">
+    <animate attributeName="cy"
+             values="-50;220"
+             dur="11s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="200;240;180;230;200"
+             dur="11s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 3 -->
+  <ellipse cx="350" cy="-40" rx="8" ry="5" fill="#f5c2e7">
+    <animate attributeName="cy"
+             values="-40;210"
+             dur="9s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="350;390;340;370;350"
+             dur="9s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 4 -->
+  <ellipse cx="500" cy="-30" rx="8" ry="5" fill="#cba6f7">
+    <animate attributeName="cy"
+             values="-30;210"
+             dur="10s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="500;540;490;530;500"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 5 -->
+  <ellipse cx="650" cy="-60" rx="8" ry="5" fill="#f5c2e7">
+    <animate attributeName="cy"
+             values="-60;230"
+             dur="12s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="650;700;630;690;650"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 6 -->
+  <ellipse cx="800" cy="-20" rx="8" ry="5" fill="#f38ba8">
+    <animate attributeName="cy"
+             values="-20;200"
+             dur="7s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="800;840;790;830;800"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 7 -->
+  <ellipse cx="950" cy="-50" rx="8" ry="5" fill="#f5c2e7">
+    <animate attributeName="cy"
+             values="-50;220"
+             dur="10s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="950;990;930;980;950"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Petal 8 -->
+  <ellipse cx="1100" cy="-30" rx="8" ry="5" fill="#cba6f7">
+    <animate attributeName="cy"
+             values="-30;200"
+             dur="9s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cx"
+             values="1100;1140;1080;1120;1100"
+             dur="9s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+</svg>
