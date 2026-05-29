@@ -192,6 +192,57 @@
              dur="20s"
              repeatCount="indefinite"/>
   </ellipse>
+     <!-- Extra Petals -->
+
+<ellipse cx="100" cy="-200" rx="7" ry="4" fill="#f5c2e7" opacity="0.7">
+  <animate attributeName="cy" values="-200;850" dur="17s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="100;150;80;120;100" dur="17s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="220" cy="-350" rx="8" ry="5" fill="#f38ba8" opacity="0.8">
+  <animate attributeName="cy" values="-350;850" dur="19s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="220;260;200;250;220" dur="19s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="420" cy="-150" rx="6" ry="4" fill="#cba6f7" opacity="0.6">
+  <animate attributeName="cy" values="-150;850" dur="13s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="420;470;390;450;420" dur="13s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="620" cy="-280" rx="9" ry="5" fill="#f5c2e7" opacity="0.9">
+  <animate attributeName="cy" values="-280;850" dur="16s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="620;680;600;660;620" dur="16s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="900" cy="-180" rx="8" ry="5" fill="#f38ba8" opacity="0.8">
+  <animate attributeName="cy" values="-180;850" dur="15s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="900;960;870;940;900" dur="15s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="1100" cy="-300" rx="7" ry="4" fill="#f5c2e7" opacity="0.7">
+  <animate attributeName="cy" values="-300;850" dur="20s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="1100;1150;1080;1130;1100" dur="20s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="300" cy="-500" rx="8" ry="5" fill="#cba6f7" opacity="0.75">
+  <animate attributeName="cy" values="-500;850" dur="21s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="300;360;280;340;300" dur="21s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="760" cy="-450" rx="9" ry="5" fill="#f5c2e7" opacity="0.85">
+  <animate attributeName="cy" values="-450;850" dur="22s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="760;820;740;810;760" dur="22s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="500" cy="-600" rx="8" ry="5" fill="#f38ba8" opacity="0.8">
+  <animate attributeName="cy" values="-600;850" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="500;570;470;550;500" dur="24s" repeatCount="indefinite"/>
+</ellipse>
+
+<ellipse cx="1020" cy="-700" rx="7" ry="4" fill="#cba6f7" opacity="0.7">
+  <animate attributeName="cy" values="-700;850" dur="25s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="1020;1080;990;1060;1020" dur="25s" repeatCount="indefinite"/>
+</ellipse>
 
   <!-- Catppuccin Palette -->
   <rect x="680" y="620" width="40" height="40" fill="#f38ba8"/>
