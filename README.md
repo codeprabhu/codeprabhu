@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/banner.gif" width="100%">
 </p>
-````html
+
 <h3>shrivaths@endeavouros:~$</h3>
 
 ```bash
