@@ -1,76 +1,120 @@
 <svg width="1200" height="400" viewBox="0 0 1200 400"
      xmlns="http://www.w3.org/2000/svg">
 
- <rect width="1200" height="50" rx="20" fill="#313244"/>
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#11111b"/>
 
-<text x="20" y="32"
-      fill="#a6e3a1"
-      font-size="18"
-      font-family="monospace">
-  ➜
-</text>
+  <!-- Top divider -->
+  <line x1="0" y1="55" x2="1200" y2="55"
+        stroke="#313244"
+        stroke-width="2"/>
 
-<text x="45" y="32"
-      fill="#89b4fa"
-      font-size="18"
-      font-family="monospace">
-  ~
-</text>
-
-<text x="70" y="32"
-      fill="#cdd6f4"
-      font-size="18"
-      font-family="monospace">
-  shrivaths@endeavouros
-</text>
-
-  <!-- Content -->
-  <text x="40" y="100"
-        fill="#89b4fa"
-        font-size="24"
+  <!-- Prompt -->
+  <text x="25" y="35"
+        fill="#a6e3a1"
+        font-size="22"
         font-family="monospace">
-    $ whoami
+    ➜
   </text>
 
-  <text x="40" y="140"
+  <text x="55" y="35"
+        fill="#89b4fa"
+        font-size="22"
+        font-family="monospace">
+    ~
+  </text>
+
+  <text x="85" y="35"
         fill="#cdd6f4"
-        font-size="24"
+        font-size="22"
+        font-family="monospace">
+    shrivaths@endeavouros
+  </text>
+
+  <!-- whoami -->
+  <text x="40" y="110"
+        fill="#89b4fa"
+        font-size="34"
+        font-family="monospace">
+    ➜
+  </text>
+
+  <text x="80" y="110"
+        fill="#cba6f7"
+        font-size="34"
+        font-family="monospace">
+    ~
+  </text>
+
+  <text x="120" y="110"
+        fill="#74c7ec"
+        font-size="34"
+        font-family="monospace">
+    whoami
+  </text>
+
+  <text x="80" y="155"
+        fill="#cdd6f4"
+        font-size="30"
         font-family="monospace">
     Shrivaths S Prabhu
   </text>
 
-  <text x="40" y="200"
+  <!-- uname -->
+  <text x="40" y="225"
         fill="#89b4fa"
-        font-size="24"
+        font-size="34"
         font-family="monospace">
-    $ uname -a
+    ➜
   </text>
 
-  <text x="40" y="240"
+  <text x="80" y="225"
+        fill="#cba6f7"
+        font-size="34"
+        font-family="monospace">
+    ~
+  </text>
+
+  <text x="120" y="225"
+        fill="#74c7ec"
+        font-size="34"
+        font-family="monospace">
+    uname -a
+  </text>
+
+  <text x="80" y="270"
         fill="#cdd6f4"
-        font-size="24"
+        font-size="30"
         font-family="monospace">
     EndeavourOS Linux
   </text>
 
-  <text x="40" y="300"
+  <!-- cursor -->
+  <text x="40" y="350"
         fill="#89b4fa"
-        font-size="24"
+        font-size="34"
         font-family="monospace">
-    $ █
+    ➜
   </text>
 
-  <!-- Blinking Cursor -->
-  <rect x="85" y="278"
-        width="15"
-        height="25"
+  <text x="80" y="350"
+        fill="#cba6f7"
+        font-size="34"
+        font-family="monospace">
+    ~
+  </text>
+
+  <rect x="120"
+        y="320"
+        width="18"
+        height="35"
         fill="#f5c2e7">
 
-      <animate
-          attributeName="opacity"
-          values="1;0;1"
-          dur="1s"
-          repeatCount="indefinite"/>
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
   </rect>
-
 </svg>
+```
