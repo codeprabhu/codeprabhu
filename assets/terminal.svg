@@ -1,52 +1,65 @@
-<svg width="1200" height="700" viewBox="0 0 1200 700"
+<svg width="1200" height="750" viewBox="0 0 1200 750"
      xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Catppuccin Mocha Background -->
-  <rect width="1200" height="700" fill="#11111b"/>
+  <defs>
+    <linearGradient id="eosGradient"
+                    x1="0%" y1="0%"
+                    x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7edb"/>
+      <stop offset="35%" stop-color="#d38cff"/>
+      <stop offset="70%" stop-color="#8c9eff"/>
+      <stop offset="100%" stop-color="#6aa9ff"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Prompt -->
+  <!-- Background -->
+  <rect width="1200" height="750" fill="#0f111a"/>
+
+  <!-- Top Prompt -->
   <text x="40" y="60"
         fill="#a6e3a1"
         font-size="28"
         font-family="monospace">➜</text>
 
   <text x="75" y="60"
-        fill="#cba6f7"
+        fill="#89b4fa"
         font-size="28"
         font-family="monospace">~</text>
 
-  <text x="110" y="60"
-        fill="#89b4fa"
+  <text x="115" y="60"
+        fill="#cdd6f4"
         font-size="28"
         font-family="monospace">fastfetch</text>
 
   <!-- ASCII Logo -->
   <text x="40"
-        y="140"
-        fill="#cba6f7"
+        y="120"
+        fill="url(#eosGradient)"
         font-size="18"
         font-family="monospace"
         xml:space="preserve">
-                     ./o.
-                   ./sssso-
-                 `:osssssss+-
-               `:+sssssssssso/.
-             `-/ossssssssssssso/.
-           `-/+sssssssssssssssso+:`
-         `-:/+sssssssssssssssssso+/.
-       `.://osssssssssssssssssssso++-
-      .://+ssssssssssssssssssssssso++:
-    .:///ossssssssssssssssssssssssso++:
-  `:////ssssssssssssssssssssssssssso+++.
-`-////+ssssssssssssssssssssssssssso++++-
- `..-+oosssssssssssssssssssssssso+++++/`
-   ./++++++++++++++++++++++++++++++/:.
-  `:::::::::::::::::::::::::------``
+
+    <tspan x="40" dy="0">                     ./o.</tspan>
+    <tspan x="40" dy="20">                   ./sssso-</tspan>
+    <tspan x="40" dy="20">                 `:osssssss+-</tspan>
+    <tspan x="40" dy="20">               `:+sssssssssso/.</tspan>
+    <tspan x="40" dy="20">             `-/ossssssssssssso/.</tspan>
+    <tspan x="40" dy="20">           `-/+sssssssssssssssso+:`</tspan>
+    <tspan x="40" dy="20">         `-:/+sssssssssssssssssso+/.</tspan>
+    <tspan x="40" dy="20">       `.://osssssssssssssssssssso++-</tspan>
+    <tspan x="40" dy="20">      .://+ssssssssssssssssssssssso++:</tspan>
+    <tspan x="40" dy="20">    .:///ossssssssssssssssssssssssso++:</tspan>
+    <tspan x="40" dy="20">  `:////ssssssssssssssssssssssssssso+++.</tspan>
+    <tspan x="40" dy="20">`-////+ssssssssssssssssssssssssssso++++-</tspan>
+    <tspan x="40" dy="20"> `..-+oosssssssssssssssssssssssso+++++/`</tspan>
+    <tspan x="40" dy="20">   ./++++++++++++++++++++++++++++++/:.</tspan>
+    <tspan x="40" dy="20">  `:::::::::::::::::::::::::------``</tspan>
+
   </text>
 
-  <!-- Header -->
+  <!-- Username -->
   <text x="620" y="140"
-        fill="#f5c2e7"
+        fill="#f38ba8"
         font-size="28"
         font-family="monospace">
     shrivaths@endeavouros
@@ -59,7 +72,7 @@
     ---------------------
   </text>
 
-  <!-- Info Labels -->
+  <!-- Labels -->
   <text x="620" y="230" fill="#cba6f7" font-size="24" font-family="monospace">OS:</text>
   <text x="620" y="270" fill="#cba6f7" font-size="24" font-family="monospace">Shell:</text>
   <text x="620" y="310" fill="#cba6f7" font-size="24" font-family="monospace">Terminal:</text>
@@ -67,7 +80,7 @@
   <text x="620" y="390" fill="#cba6f7" font-size="24" font-family="monospace">Editor:</text>
   <text x="620" y="430" fill="#cba6f7" font-size="24" font-family="monospace">Languages:</text>
   <text x="620" y="470" fill="#cba6f7" font-size="24" font-family="monospace">Focus:</text>
-  <text x="620" y="550" fill="#cba6f7" font-size="24" font-family="monospace">Projects:</text>
+  <text x="620" y="590" fill="#cba6f7" font-size="24" font-family="monospace">Projects:</text>
 
   <!-- Values -->
   <text x="800" y="230" fill="#cdd6f4" font-size="24" font-family="monospace">EndeavourOS Linux</text>
@@ -97,20 +110,24 @@
     KrystalRun
   </text>
 
+  <text x="800" y="670" fill="#cdd6f4" font-size="24" font-family="monospace">
+    BITSCTF_BITSkrieg
+  </text>
+
   <!-- Bottom Prompt -->
-  <text x="40" y="670"
+  <text x="40" y="720"
         fill="#a6e3a1"
         font-size="28"
         font-family="monospace">➜</text>
 
-  <text x="75" y="670"
-        fill="#cba6f7"
+  <text x="75" y="720"
+        fill="#89b4fa"
         font-size="28"
         font-family="monospace">~</text>
 
-  <!-- Blinking Cursor -->
-  <rect x="110"
-        y="642"
+  <!-- Cursor -->
+  <rect x="115"
+        y="692"
         width="18"
         height="30"
         fill="#f5c2e7">
