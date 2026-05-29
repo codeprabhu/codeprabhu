@@ -33,9 +33,9 @@
 
   <!-- ASCII Logo -->
   <text x="40"
-        y="170"
+        y="200"
         fill="url(#eosGradient)"
-        font-size="22"
+        font-size="24"
         font-family="monospace"
         xml:space="preserve">
 
@@ -58,7 +58,7 @@
   </text>
 
   <!-- Username -->
-  <text x="720" y="190"
+  <text x="680" y="190"
         fill="#f38ba8"
         font-size="30"
         font-family="monospace"
@@ -66,7 +66,7 @@
     shrivaths@endeavouros
   </text>
 
-  <text x="720" y="225"
+  <text x="680" y="225"
         fill="#6c7086"
         font-size="24"
         font-family="monospace">
@@ -74,46 +74,43 @@
   </text>
 
   <!-- Labels -->
-  <text x="720" y="280" fill="#cba6f7" font-size="24" font-family="monospace">OS:</text>
-  <text x="720" y="320" fill="#cba6f7" font-size="24" font-family="monospace">Shell:</text>
-  <text x="720" y="360" fill="#cba6f7" font-size="24" font-family="monospace">Terminal:</text>
-  <text x="720" y="400" fill="#cba6f7" font-size="24" font-family="monospace">Theme:</text>
-  <text x="720" y="440" fill="#cba6f7" font-size="24" font-family="monospace">Editor:</text>
-  <text x="720" y="480" fill="#cba6f7" font-size="24" font-family="monospace">Languages:</text>
-  <text x="720" y="520" fill="#cba6f7" font-size="24" font-family="monospace">Focus:</text>
-  <text x="720" y="640" fill="#cba6f7" font-size="24" font-family="monospace">Projects:</text>
+  <text x="680" y="280" fill="#cba6f7" font-size="24" font-family="monospace">OS:</text>
+  <text x="680" y="320" fill="#cba6f7" font-size="24" font-family="monospace">Shell:</text>
+  <text x="680" y="360" fill="#cba6f7" font-size="24" font-family="monospace">Terminal:</text>
+  <text x="680" y="400" fill="#cba6f7" font-size="24" font-family="monospace">Theme:</text>
+  <text x="680" y="440" fill="#cba6f7" font-size="24" font-family="monospace">Editor:</text>
+  <text x="680" y="480" fill="#cba6f7" font-size="24" font-family="monospace">Languages:</text>
+  <text x="680" y="520" fill="#cba6f7" font-size="24" font-family="monospace">Focus:</text>
+  <text x="680" y="640" fill="#cba6f7" font-size="24" font-family="monospace">Projects:</text>
 
   <!-- Values -->
-  <text x="900" y="280" fill="#cdd6f4" font-size="24" font-family="monospace">EndeavourOS Linux</text>
-  <text x="900" y="320" fill="#cdd6f4" font-size="24" font-family="monospace">zsh</text>
-  <text x="900" y="360" fill="#cdd6f4" font-size="24" font-family="monospace">xfce4-terminal</text>
-  <text x="900" y="400" fill="#cdd6f4" font-size="24" font-family="monospace">Catppuccin Mocha</text>
-  <text x="900" y="440" fill="#cdd6f4" font-size="24" font-family="monospace">VS Code</text>
-  <text x="900" y="480" fill="#cdd6f4" font-size="24" font-family="monospace">C++, Python, C#</text>
+  <text x="850" y="280" fill="#cdd6f4" font-size="24" font-family="monospace">EndeavourOS Linux</text>
+  <text x="850" y="320" fill="#cdd6f4" font-size="24" font-family="monospace">zsh</text>
+  <text x="850" y="360" fill="#cdd6f4" font-size="24" font-family="monospace">xfce4-terminal</text>
+  <text x="850" y="400" fill="#cdd6f4" font-size="24" font-family="monospace">Catppuccin Mocha</text>
+  <text x="850" y="440" fill="#cdd6f4" font-size="24" font-family="monospace">VS Code</text>
+  <text x="850" y="480" fill="#cdd6f4" font-size="24" font-family="monospace">C++, Python, C#</text>
 
-  <text x="900" y="520" fill="#cdd6f4" font-size="24" font-family="monospace">
-    Competitive Programming
+  <text x="850" y="520" fill="#cdd6f4" font-size="24" font-family="monospace">
+    CP 🥀
   </text>
 
-  <text x="900" y="560" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="560" fill="#cdd6f4" font-size="24" font-family="monospace">
     AI / ML
   </text>
 
-  <text x="900" y="600" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="600" fill="#cdd6f4" font-size="24" font-family="monospace">
     Open Source
   </text>
 
-  <text x="900" y="640" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="640" fill="#cdd6f4" font-size="24" font-family="monospace">
     GlitchHoppers
   </text>
 
-  <text x="900" y="680" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="680" fill="#cdd6f4" font-size="24" font-family="monospace">
     KrystalRun
   </text>
 
-  <text x="900" y="720" fill="#cdd6f4" font-size="24" font-family="monospace">
-    BITSCTF_BITSkrieg
-  </text>
 
   <!-- Bottom Prompt -->
   <text x="40" y="790"
