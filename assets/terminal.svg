@@ -39,32 +39,35 @@
         font-size="28"
         font-family="monospace">fastfetch</text>
 
-  <!-- ASCII Logo -->
-  <text x="40"
-        y="200"
-        fill="url(#eosGradient)"
-        filter="url(#glow)"
-        font-size="22"
-        font-family="monospace"
-        xml:space="preserve">
+ <!-- ASCII Logo -->
+<g transform="translate(20,210) scale(1.25)">
 
-    <tspan x="40" dy="0">                     ./o.</tspan>
-    <tspan x="40" dy="24">                   ./sssso-</tspan>
-    <tspan x="40" dy="24">                 `:osssssss+-</tspan>
-    <tspan x="40" dy="24">               `:+sssssssssso/.</tspan>
-    <tspan x="40" dy="24">             `-/ossssssssssssso/.</tspan>
-    <tspan x="40" dy="24">           `-/+sssssssssssssssso+:`</tspan>
-    <tspan x="40" dy="24">         `-:/+sssssssssssssssssso+/.</tspan>
-    <tspan x="40" dy="24">       `.://osssssssssssssssssssso++-</tspan>
-    <tspan x="40" dy="24">      .://+ssssssssssssssssssssssso++:</tspan>
-    <tspan x="40" dy="24">    .:///ossssssssssssssssssssssssso++:</tspan>
-    <tspan x="40" dy="24">  `:////ssssssssssssssssssssssssssso+++.</tspan>
-    <tspan x="40" dy="24">`-////+ssssssssssssssssssssssssssso++++-</tspan>
-    <tspan x="40" dy="24"> `..-+oosssssssssssssssssssssssso+++++/`</tspan>
-    <tspan x="40" dy="24">   ./++++++++++++++++++++++++++++++/:.</tspan>
-    <tspan x="40" dy="24">  `:::::::::::::::::::::::::------``</tspan>
+  <text
+      fill="url(#eosGradient)"
+      filter="url(#glow)"
+      font-size="22"
+      font-family="monospace"
+      xml:space="preserve">
+
+    <tspan x="0" dy="0">                     ./o.</tspan>
+    <tspan x="0" dy="24">                   ./sssso-</tspan>
+    <tspan x="0" dy="24">                 `:osssssss+-</tspan>
+    <tspan x="0" dy="24">               `:+sssssssssso/.</tspan>
+    <tspan x="0" dy="24">             `-/ossssssssssssso/.</tspan>
+    <tspan x="0" dy="24">           `-/+sssssssssssssssso+:`</tspan>
+    <tspan x="0" dy="24">         `-:/+sssssssssssssssssso+/.</tspan>
+    <tspan x="0" dy="24">       `.://osssssssssssssssssssso++-</tspan>
+    <tspan x="0" dy="24">      .://+ssssssssssssssssssssssso++:</tspan>
+    <tspan x="0" dy="24">    .:///ossssssssssssssssssssssssso++:</tspan>
+    <tspan x="0" dy="24">  `:////ssssssssssssssssssssssssssso+++.</tspan>
+    <tspan x="0" dy="24">`-////+ssssssssssssssssssssssssssso++++-</tspan>
+    <tspan x="0" dy="24"> `..-+oosssssssssssssssssssssssso+++++/`</tspan>
+    <tspan x="0" dy="24">   ./++++++++++++++++++++++++++++++/:.</tspan>
+    <tspan x="0" dy="24">  `:::::::::::::::::::::::::------``</tspan>
 
   </text>
+
+</g>
 
   <!-- Username -->
   <text x="680" y="190"
