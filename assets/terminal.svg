@@ -10,6 +10,14 @@
       <stop offset="70%" stop-color="#8c9eff"/>
       <stop offset="100%" stop-color="#6aa9ff"/>
     </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
@@ -35,6 +43,7 @@
   <text x="40"
         y="200"
         fill="url(#eosGradient)"
+        filter="url(#glow)"
         font-size="24"
         font-family="monospace"
         xml:space="preserve">
@@ -59,7 +68,7 @@
 
   <!-- Username -->
   <text x="680" y="190"
-        fill="#f38ba8"
+        fill="#f5c2e7"
         font-size="30"
         font-family="monospace"
         font-weight="bold">
@@ -78,7 +87,7 @@
   <text x="680" y="320" fill="#cba6f7" font-size="24" font-family="monospace">Shell:</text>
   <text x="680" y="360" fill="#cba6f7" font-size="24" font-family="monospace">Terminal:</text>
   <text x="680" y="400" fill="#cba6f7" font-size="24" font-family="monospace">Theme:</text>
-  <text x="680" y="640" fill="#cba6f7" font-size="24" font-family="monospace">Projects:</text>
+  <text x="680" y="440" fill="#cba6f7" font-size="24" font-family="monospace">Repos:</text>
 
   <!-- Values -->
   <text x="850" y="280" fill="#cdd6f4" font-size="24" font-family="monospace">EndeavourOS Linux</text>
@@ -86,14 +95,23 @@
   <text x="850" y="360" fill="#cdd6f4" font-size="24" font-family="monospace">xfce4-terminal</text>
   <text x="850" y="400" fill="#cdd6f4" font-size="24" font-family="monospace">Catppuccin Mocha</text>
 
-  <text x="850" y="640" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="440" fill="#cdd6f4" font-size="24" font-family="monospace">
     GlitchHoppers
   </text>
 
-  <text x="850" y="680" fill="#cdd6f4" font-size="24" font-family="monospace">
+  <text x="850" y="520" fill="#cdd6f4" font-size="24" font-family="monospace">
     KrystalRun
   </text>
 
+  <!-- Catppuccin Palette -->
+  <rect x="680" y="620" width="40" height="40" fill="#f38ba8"/>
+  <rect x="715" y="620" width="40" height="40" fill="#fab387"/>
+  <rect x="750" y="620" width="40" height="40" fill="#f9e2af"/>
+  <rect x="785" y="620" width="40" height="40" fill="#a6e3a1"/>
+  <rect x="820" y="620" width="40" height="40" fill="#89dceb"/>
+  <rect x="855" y="620" width="40" height="40" fill="#89b4fa"/>
+  <rect x="890" y="620" width="40" height="40" fill="#cba6f7"/>
+  <rect x="925" y="620" width="40" height="40" fill="#f5c2e7"/>
 
   <!-- Bottom Prompt -->
   <text x="40" y="790"
@@ -110,7 +128,7 @@
   <rect x="115"
         y="762"
         width="18"
-        height="30"
+        height="40"
         fill="#f5c2e7">
 
     <animate
