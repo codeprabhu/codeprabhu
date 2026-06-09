@@ -85,29 +85,78 @@
     ----------------------
   </text>
 
-  <!-- Labels -->
-  <text x="680" y="280" fill="#cba6f7" font-size="24" font-family="monospace">OS:</text>
-  <text x="680" y="320" fill="#cba6f7" font-size="24" font-family="monospace">Shell:</text>
-  <text x="680" y="360" fill="#cba6f7" font-size="24" font-family="monospace">Terminal:</text>
-  <text x="680" y="400" fill="#cba6f7" font-size="24" font-family="monospace">Theme:</text>
-  <text x="680" y="440" fill="#cba6f7" font-size="24" font-family="monospace">Repos:</text>
+  <!-- Intro -->
 
-  <!-- Values -->
-  <text x="850" y="280" fill="#cdd6f4" font-size="24" font-family="monospace">EndeavourOS Linux</text>
-  <text x="850" y="320" fill="#cdd6f4" font-size="24" font-family="monospace">zsh</text>
-  <text x="850" y="360" fill="#cdd6f4" font-size="24" font-family="monospace">xfce4-terminal</text>
-  <text x="850" y="400" fill="#cdd6f4" font-size="24" font-family="monospace">Catppuccin Mocha</text>
+<text x="680" y="190"
+      fill="#f5c2e7"
+      font-size="30"
+      font-family="monospace"
+      font-weight="bold">
+  hey, i'm shrivaths 👋
+</text>
 
-  <text x="850" y="440" fill="#cdd6f4" font-size="24" font-family="monospace">
-    GlitchHoppers
-  </text>
-<text x="850" y="480" fill="#cdd6f4" font-size="24" font-family="monospace">
-    BITSCTF_BITSkrieg
-  </text>
-  <text x="850" y="520" fill="#cdd6f4" font-size="24" font-family="monospace">
-    KrystalRun
-  </text>
+<text x="680" y="225"
+      fill="#6c7086"
+      font-size="24"
+      font-family="monospace">
+  -------------------------
+</text>
 
+<text x="680" y="310"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  computer science student
+</text>
+
+<text x="680" y="345"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  at bits goa.
+</text>
+
+<text x="680" y="430"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  i spend most of my time
+</text>
+
+<text x="680" y="465"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  building projects,
+</text>
+
+<text x="680" y="500"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  exploring random ideas,
+</text>
+
+<text x="680" y="535"
+      fill="#cdd6f4"
+      font-size="24"
+      font-family="monospace">
+  and learning new things.
+</text>
+
+<text x="680" y="620"
+      fill="#a6e3a1"
+      font-size="26"
+      font-family="monospace">
+  just here for the vibes ✨
+</text>
+
+<text x="680" y="700"
+      fill="#89b4fa"
+      font-size="22"
+      font-family="monospace">
+  shrivaths.vercel.app
+</text>
   <!-- Falling Sakura Petal 1 -->
   <ellipse cx="150" cy="-100"
            rx="9" ry="5"
