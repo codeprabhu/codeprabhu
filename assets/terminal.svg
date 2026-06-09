@@ -75,7 +75,7 @@
         font-size="30"
         font-family="monospace"
         font-weight="bold">
-    shrivaths@endeavouros
+    Swif7Bl8ze@endeavouros
   </text>
 
   <text x="680" y="225"
@@ -87,18 +87,13 @@
 
   <!-- Intro -->
 
-<text x="680" y="190"
+<text x="680" y="230"
       fill="#f5c2e7"
       font-size="30"
       font-family="monospace"
       font-weight="bold">
-  hey, i'm shrivaths 👋
+  hey, i'm shrivaths 
 </text>
-
-<text x="680" y="225"
-      fill="#6c7086"
-      font-size="24"
-      font-family="monospace">
   -------------------------
 </text>
 
@@ -145,10 +140,10 @@
 </text>
 
 <text x="680" y="620"
-      fill="#a6e3a1"
+      fill="#cdd6f4"
       font-size="26"
       font-family="monospace">
-  just here for the vibes ✨
+  just here for the vibes
 </text>
 
 <text x="680" y="700"
