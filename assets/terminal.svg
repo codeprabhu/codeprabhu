@@ -70,7 +70,7 @@
 </g>
 
 <!-- Username -->
-<text x="680" y="110"
+<text x="680" y="170"
       fill="#f5c2e7"
       font-size="30"
       font-family="monospace"
@@ -78,7 +78,7 @@
     Swif7Bl8ze@endeavouros
 </text>
 
-<text x="680" y="140"
+<text x="680" y="200"
       fill="#6c7086"
       font-size="24"
       font-family="monospace">
@@ -87,42 +87,42 @@
 
 <!-- Intro -->
 
-<text x="680" y="190"
+<text x="680" y="250"
       fill="#cdd6f4"
       font-size="24"
       font-family="monospace">
   hey, i'm shrivaths
 </text>
 
-<text x="680" y="225"
+<text x="680" y="285"
       fill="#cdd6f4"
       font-size="24"
       font-family="monospace">
   computer science student at bits goa.
 </text>
 
-<text x="680" y="290"
+<text x="680" y="350"
       fill="#cdd6f4"
       font-size="24"
       font-family="monospace">
   i build things, explore ideas,
 </text>
 
-<text x="680" y="325"
+<text x="680" y="385"
       fill="#cdd6f4"
       font-size="24"
       font-family="monospace">
   and learn new things.
 </text>
 
-<text x="680" y="390"
+<text x="680" y="450"
       fill="#cdd6f4"
       font-size="26"
       font-family="monospace">
   just here for the vibes
 </text>
 
-<text x="680" y="445"
+<text x="680" y="505"
       fill="#89b4fa"
       font-size="22"
       font-family="monospace">
@@ -265,14 +265,14 @@
 </ellipse>
 
   <!-- Catppuccin Palette -->
-  <rect x="680" y="500" width="40" height="40" fill="#f38ba8"/>
-  <rect x="500" y="500" width="40" height="40" fill="#fab387"/>
-  <rect x="780" y="500" width="40" height="40" fill="#f9e2af"/>
-  <rect x="830" y="500" width="40" height="40" fill="#a6e3a1"/>
-  <rect x="880" y="500" width="40" height="40" fill="#89dceb"/>
-  <rect x="930" y="500" width="40" height="40" fill="#89b4fa"/>
-  <rect x="980" y="500" width="40" height="40" fill="#cba6f7"/>
-  <rect x="1030" y="500" width="40" height="40" fill="#f5c2e7"/>
+  <rect x="680" y="560" width="40" height="40" fill="#f38ba8"/>
+  <rect x="730" y="560" width="40" height="40" fill="#fab387"/>
+  <rect x="780" y="560" width="40" height="40" fill="#f9e2af"/>
+  <rect x="830" y="560" width="40" height="40" fill="#a6e3a1"/>
+  <rect x="880" y="560" width="40" height="40" fill="#89dceb"/>
+  <rect x="930" y="560" width="40" height="40" fill="#89b4fa"/>
+  <rect x="980" y="560" width="40" height="40" fill="#cba6f7"/>
+  <rect x="1030" y="560" width="40" height="40" fill="#f5c2e7"/>
 
   <!-- Bottom Prompt -->
   <text x="40" y="790"
