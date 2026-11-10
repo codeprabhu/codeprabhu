@@ -14,18 +14,12 @@ hey, i'm shrivaths
 
 Student at BITS Goa
 
-<br>
-
-i do stuff, explore and learn things.
-
-<br>
+i do stuff, explore 
+and learn things.
 
 here for the vibes.
 
-<br>
-
 <a href="https://shrivaths.vercel.app">shrivaths.vercel.app</a>
-
 </td>
 <td width="50%" align="center" valign="middle">
 <img src="assets/ascii-art.png" width="100%" alt="ASCII artwork"/>
