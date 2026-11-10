@@ -4,31 +4,24 @@
 
 <br>
 
-<table width="100%" border="0">
-<tr>
-<td width="50%" valign="middle">
+<img align="right" src="assets/ascii-art.png" width="40%" alt="ASCII portrait"/>
 
-<h3>Swif7Bl8ze</h3>
+### Swif7Bl8ze
 
 hey, i'm shrivaths
 
 Student at BITS Goa
 
-i do stuff, explore 
-and learn things.
+i do stuff, explore and learn things.
 
 here for the vibes.
 
-<a href="https://shrivaths.vercel.app">shrivaths.vercel.app</a>
-</td>
-<td width="50%" align="center" valign="middle">
-<img src="assets/ascii-art.png" width="100%" alt="ASCII artwork"/>
-</td>
-</tr>
-</table>
+[shrivaths.vercel.app](https://shrivaths.vercel.app)
+
+<br clear="right"/>
 
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/codeprabhu/codeprabhu/output/github-snake-dark.svg" alt="Contribution snake"/>
+  <img src="https://raw.githubusercontent.com/codeprabhu/codeprabhu/output/github-snake-dark.svg" alt="GitHub contribution graph"/>
 </p>
